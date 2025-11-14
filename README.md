@@ -7,37 +7,46 @@ Part 2 of Data Analytics Cheatsheets - Geek Edition
 
 ---
 
-Ever wished you could **pause your old Python code** without deleting it?  
-Triple quotes (`'''`) are your friend.  
-Wrap blocks of code, silence them, test only what matters.  
-Old logic stays safe. New snippets run freely.  
+Ever wished you could **pause old Python code** without deleting it?  
+The **triple-quote hack (`'''`)** lets you wrap entire blocks of code, silence them, and test only what matters.  
+Old logic stays safe, new snippets run freely.  
 
 ---
 
-## 🔍 Why This Cheatsheet Exists
+## 🔍 Why This Hack Exists
 
-To allow **step-by-step testing and debugging** in Python — without clutter, without losing prior work.  
-
----
-
-## 🧠 Core Insights — Geek Edition
-
-- **Block commenting ≠ deletion** — keep code intact for later  
-- **Testing ≠ rewriting** — isolate snippets to focus on outcomes  
-- **Experimentation requires safety** — protect your workflow  
+Python developers, learners, and data analysts often **re-run entire notebooks by accident**, slowing down experimentation.  
+This hack **prevents unnecessary executions**, making debugging and iterative testing smooth.  
 
 ---
 
-## 🐍 Python Concept Table
+## ⚡ The Hack — Step by Step
 
-| Concept               | Old Code                          | Triple-Quote Hack                        |
-|-----------------------|----------------------------------|-----------------------------------------|
-| Block commenting      | Delete / comment line by line     | Wrap entire block in `'''`              |
-| Debug safely          | Risk losing context               | Isolate snippets without losing old logic |
-| Workflow efficiency   | Slow, repetitive edits            | Focus on new code, step-by-step testing |
+1. Wrap old code blocks in **triple single quotes (`'''`)**:
 
-**Cheat Insight:** Like a neon debug light in the code 🌃, triple quotes let your experiments run safely while keeping history intact.
+```python
+'''
+df = load_data()
+cleaned = clean(df)
+print(cleaned)
+'''
 
+---
+Write and run your new snippet outside the quotes:
+print("Run only this!")
+
+✅ Geek Tip: Triple quotes also work for temporary notes, pseudo-docstrings, or reminders.
+No deletion required — experiment safely, step by step.
+
+🐍 Hack Table — Quick Reference
+| Problem             | Default Behavior    | Hack Outcome                        |
+| ------------------- | ------------------- | ----------------------------------- |
+| Running old code    | Executes everything | Triple-quote blocks ignore old code |
+| Debugging           | Slow, error-prone   | Focus only on new snippets          |
+| Workflow efficiency | Repeated edits      | Safe, isolated testing              |
+
+
+Cheat Insight: Like a neon debug light in your code 🌃, triple quotes let your experiments run safely while keeping history intact.
 ---
 
 ## 📂 Files in this Repo
@@ -56,7 +65,8 @@ To allow **step-by-step testing and debugging** in Python — without clutter, w
 
 ---
 
-<img width="1536" height="1024" alt="KalyanDataGuy Python1" src="https://github.com/user-attachments/assets/d7871f57-62ad-4a80-beb2-311cfce49fb8" />
+<img width="1536" height="1024" alt="KalyanDataGuy Python1" src="https://github.com/user-attachments/assets/b1e07923-988f-478b-8505-1b23a32993c7" />
+
 
 ## 👤 About the Author
 
