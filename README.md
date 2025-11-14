@@ -64,7 +64,8 @@ Cheat Insight: Like a neon debug light in your code 🌃, triple quotes let your
 #learning #workflow #kalyandataguy #cheatsheet #geekedition  
 
 ---
-<img width="1536" height="1024" alt="KalyanDataGuy Python1" src="https://github.com/user-attachments/assets/4ed39ca0-bced-4c0a-9c55-06a11ce0bc06" />
+<img width="1536" height="1024" alt="KalyanDataGuy Python1" src="https://github.com/user-attachments/assets/e8d84d70-7120-4f55-858c-de472235482a" />
+
 ---
 
 ## 👤 About the Author
